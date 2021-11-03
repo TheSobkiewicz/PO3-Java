@@ -56,7 +56,7 @@ public class PersonArray {
     }
 
     public void sortByAge() {
-        Arrays.sort(list, Person::wiek);
+        Arrays.sort(list, (x,y) -> x.wiek() - y.wiek() );
     }
 
 }
