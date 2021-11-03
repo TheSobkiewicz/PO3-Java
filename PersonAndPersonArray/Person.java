@@ -10,9 +10,9 @@ public class Person {
     private Person() {
     }
 
-    // public int wiek() {
-    // return wiek;
-    // }
+    public int wiek() {
+    return wiek;
+    }
 
     @Override
     public String toString() {
